@@ -1,0 +1,32 @@
+site_name: TSSR Sheet - Fiches & Tutos
+site_description: Documentation et fiches mémoires TSSR
+site_author: Cassandra White
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode sombre
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode clair
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+# --- AJOUTE CETTE SECTION ---
+plugins:
+  - search:
+      lang: fr
